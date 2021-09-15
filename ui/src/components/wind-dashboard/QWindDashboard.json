@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "docsUrl": "https://v2.quasar.dev/vue-components/wind-dashboard"
+  },
+
+  "props": {
+    "inline-actions": {
+      "type": "Boolean",
+      "desc": "Display",
+      "category": "content"
+    },
+
+    "dense": {
+      "extends": "dense"
+    },
+
+    "rounded": {
+      "extends": "rounded"
+    },
+
+    "dark": {
+      "extends": "dark"
+    }
+  },
+
+  "slots": {
+    "default": {
+      "desc": "This is where Banner content gs"
+    },
+
+    "avatar": {
+      "desc": "Slot for displaying an avatar (suggestions: QIcon, QAvatar)"
+    },
+
+    "action": {
+      "desc": "Slot for Banner action (suggestions: QBtn)"
+    }
+  }
+}
